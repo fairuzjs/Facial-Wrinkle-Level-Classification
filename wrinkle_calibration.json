@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-06-03T19:14:18.353171",
+  "version": "v2_ml_classifier",
+  "n_training_samples": 836,
+  "young_threshold": 12.0,
+  "middle_threshold": 22.0,
+  "threshold_accuracy": 0.0,
+  "coef": [
+    0.3637499981222189,
+    0.13863921798328951,
+    -0.3304724226763274,
+    0.054258608330584615,
+    0.05620202162149015
+  ],
+  "intercept": 31.423876112389895,
+  "alpha": 0.01,
+  "mae_cv": 12.56600399017334,
+  "mae_train": 12.408064842224121,
+  "n_samples": 836,
+  "feature_names": [
+    "wrinkle_mata_kiri",
+    "wrinkle_mata_kanan",
+    "wrinkle_dahi",
+    "wrinkle_pipi_kiri",
+    "wrinkle_pipi_kanan"
+  ],
+  "classifier_accuracy_test": 48.80952380952381,
+  "classifier_file": "wrinkle_classifier.pkl",
+  "notes": "v2: Classifier ML (Random Forest) menggantikan threshold rule-based. coef[i] * feature[i] + intercept = estimated_age_years (Ridge fallback). Load wrinkle_classifier.pkl untuk kategori Muda/Paruh Baya/Tua."
+}

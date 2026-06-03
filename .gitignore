@@ -1,0 +1,17 @@
+# Dataset
+Images/
+
+# Model Files (Opsional, tapi biasanya diabaikan jika sangat besar. CaffeNet ~45MB jadi aman di-push ke github, tapi pkl mungkin diabaikan atau dibiarkan. Kita biarkan saja)
+
+# Python Caches
+__pycache__/
+*.pyc
+*.pyo
+
+# IDEs and Tools
+.vscode/
+.gemini/
+
+# Output Evaluasi
+evaluation_results.csv
+*.log
